@@ -5,9 +5,9 @@ provider "packet" {
 }
 
 # Create a project
-resource "packet_project" "cool_project" {
-  name           = "My First Terraform Project"
-  payment_method = "PAYMENT_METHOD_ID"          # Only required for a non-default payment method
+resource "packet_project" "portsandbox-proj" {
+  name           = "Portable Sandbox Project"
+  payment_method = "PAYMENT_METHOD_ID"          # use Alex Personal while still testing
 }
 
 # Create a device and add it to tf_project_1
