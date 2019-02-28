@@ -7,9 +7,11 @@ provider "packet" {
 resource "packet_project" "" {
   name           = "Sandbox Example"
   payment_method = "${var.packet_payment_id}"          # Only required for a non-default payment method
+# changed anyway
 }
 
 # Create a device and add it to sandbox1
+# This is just a test, still need to have proper tvars before setting up
 resource "packet_device" "sandbox1" {
   hostname         = "tf.centos1"
   plan             = "c1.small.x86"

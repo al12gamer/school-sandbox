@@ -7,3 +7,6 @@ Documentation regarding using our easy GUI to spin up the sandbox and access the
 ### Running
 Documentation regarding spinning up a sandbox in AWS or Packet.net.
 Needs work.
+
+### Testing
+Feel free to submit pull requests.
