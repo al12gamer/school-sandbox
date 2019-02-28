@@ -6,7 +6,7 @@ provider "packet" {
 # Create a project
 resource "packet_project" "" {
   name           = "Sandbox Example"
-  payment_method = "PAYMENT_METHOD_ID"          # Only required for a non-default payment method
+  payment_method = "${var.packet_payment_id}"          # Only required for a non-default payment method
 }
 
 # Create a device and add it to sandbox1
