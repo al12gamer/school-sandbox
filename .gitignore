@@ -124,7 +124,7 @@ dmypy.json
 **/.terraform/*
 
 # Ignore variables file
-vars.tf
+variables.tf
 
 # .tfstate files
 *.tfstate
