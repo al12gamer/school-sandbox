@@ -1,0 +1,4 @@
+# First we need to be able to have the Python file J is working on, completely work.
+# Python should be able to ask user for the Terraform/AWS API key
+# Need to be able to have the Python GUI easily run through Terraform script once it it working
+

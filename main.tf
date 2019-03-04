@@ -5,7 +5,7 @@ provider "packet" {
 
 # Create a project
 resource "packet_project" "" {
-  name           = "Sandbox Example"
+  name = "Sandbox Example"
 }
 
 # Create a device and add it to sandbox1
