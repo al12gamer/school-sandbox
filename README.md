@@ -6,8 +6,8 @@ Documentation regarding using our easy GUI to spin up the sandbox and access the
 
 ### Running
 Documentation regarding spinning up a sandbox in AWS or Packet.net.
-Needs work.
+Needs work. Will likely have a asciinema recording of an example pasted here in future.
 
 ### Testing
 Feel free to submit pull requests.
-Needs work.
+Needs work. Working on python GUI with project team.
